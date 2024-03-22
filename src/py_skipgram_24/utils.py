@@ -15,9 +15,17 @@ def create_input_pairs(pp_corpus, word2idx, context_size=2):
     return np.array(idx_pairs)
 
 def get_vocab(tokenized_corpus):
+    if not isinstance(tokenized_corpus, list) or not all(isinstance(sentence, list) for sentence in tokenized_corpus):
+        raise ValueError("tokenized_corpus must be a list of lists of strings.")
+    
     return list(set(token for sentence in tokenized_corpus for token in sentence))
 
 def get_word_vectors(model, word2idx):
+    if not isinstance(word2idx, dict) or not all(isinstance(word, str) for word in word2idx.keys()):
+        raise ValueError("word2idx must be a dictionary mapping strings to integers.")
+    if not hasattr(model, 'embeddings') or not hasattr(model.embeddings, 'weight'):
+        raise ValueError("Invalid model provided. Model must have 'embeddings' with 'weight' attribute.")
+    
     embedding_weights = model.embeddings.weight.data
     word_vectors = {word: embedding_weights[idx].numpy() for word, idx in word2idx.items()}
     return word_vectors
