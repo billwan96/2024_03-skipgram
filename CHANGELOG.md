@@ -2,6 +2,17 @@
 
 
 
+## v0.2.0 (2024-03-22)
+
+### Feature
+
+* feat(package): update readme and tests ([`7344ae2`](https://github.com/billwan96/2024_03-skipgram/commit/7344ae2ce049a5dc80261914c442a51dc71457b3))
+
+### Unknown
+
+* Merge branch &#39;main&#39; of github.com:billwan96/2024_03-skipgram ([`f374ef4`](https://github.com/billwan96/2024_03-skipgram/commit/f374ef428d387973a81e7935b154e2deda7bc3b6))
+
+
 ## v0.1.1 (2024-03-22)
 
 ### Fix
