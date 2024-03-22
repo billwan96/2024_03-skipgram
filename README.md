@@ -6,7 +6,6 @@
 This package, named “py_skipgram_24”, is a comprehensive toolkit for Skip-gram modeling and evaluation. It offers a set of functions designed to facilitate various aspects of working with Skip-gram algorithms, from preprocessing the data, creating input pairs, training the model to getting word vectors. We aim to simplify the process by providing essential functionalities for data manipulation, model training, and evaluation.
 
 ## 📦 Functions
-
 This package consists of six functions and explained as below:
 
 - SkipgramModel(vocab_size, embedding_dim): This class initializes the Skipgram model with the vocabulary size and embedding dimension, and defines the forward pass.
@@ -16,7 +15,6 @@ This package consists of six functions and explained as below:
 - get_word_vectors(model, word2idx): This function gets the word vectors from the trained model and word-to-index mapping.
 
 ## 🛠️ Installation
-
 Option 1 (For Users)
 
 The package has been published to PYPI, we could use pip install
@@ -37,7 +35,9 @@ Option 2 (For Developers)
 To successfully run the following commands of installation, we would need conda and poetry, guide included in the link (conda, poetry)
 
 Clone this repository
+```
 $ git clone git@github.com:<your_username>/py_skipgram_24.git
+```
 
 Direct to the root of this repository
 Create a virtual environment in Conda with Python by the following commands at terminal and activate it:
@@ -45,6 +45,7 @@ Create a virtual environment in Conda with Python by the following commands at t
 $ conda create --name py_skipgram_24 python=3.11 -y
 $ conda activate py_skipgram_24
 ```
+
 Install this package via poetry, run the following command.
 ```
 $ poetry install
