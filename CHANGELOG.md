@@ -2,6 +2,31 @@
 
 
 
+## v0.1.1 (2024-03-22)
+
+### Fix
+
+* fix: toml file ([`3a17378`](https://github.com/billwan96/2024_03-skipgram/commit/3a173786562cb65ac2a0e8ee2e155ddf8160bf28))
+
+### Unknown
+
+* fix:add docstring ([`9f86be4`](https://github.com/billwan96/2024_03-skipgram/commit/9f86be4820e2de91b171b786a5ac056ffb7a6df6))
+
+* Update ci-cd.yml ([`702fc7a`](https://github.com/billwan96/2024_03-skipgram/commit/702fc7ab2c3a0269c9c0f454a853663afb374b12))
+
+* update toml ([`6223cf7`](https://github.com/billwan96/2024_03-skipgram/commit/6223cf7215fe78ff04efd31525b75b81c04c2f06))
+
+* solve conflict ([`391a034`](https://github.com/billwan96/2024_03-skipgram/commit/391a034a559479ef5fffa204835facddada7c7b6))
+
+* doc: update readme ([`3a63881`](https://github.com/billwan96/2024_03-skipgram/commit/3a63881ae5e275b76f8d56dfa3c1197ac087709c))
+
+* Update README.md ([`5208992`](https://github.com/billwan96/2024_03-skipgram/commit/5208992de295e530a090b6370ab341d7cc3df558))
+
+* Merge branch &#39;main&#39; of github.com:billwan96/2024_03-skipgram ([`875a8d0`](https://github.com/billwan96/2024_03-skipgram/commit/875a8d0e7fb314acac76cbe9f90737e90aa36a26))
+
+* update toml file ([`4b58b1f`](https://github.com/billwan96/2024_03-skipgram/commit/4b58b1f1e37dba820a076542450ce338367da1b9))
+
+
 ## v0.1.0 (2024-03-22)
 
 ### Feature
