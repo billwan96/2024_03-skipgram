@@ -20,6 +20,10 @@ sphinx-autoapi = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 
+[tool.poetry.group.dev.dependencies]
+sphinx-autoapi = "^3.0.0"
+sphinx-rtd-theme = "^2.0.0"
+
 [tool.semantic_release]
 version_toml = [
     "pyproject.toml:tool.poetry.version",
