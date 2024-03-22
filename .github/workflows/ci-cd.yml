@@ -23,6 +23,13 @@ jobs:
       - name: Install package
         run: poetry install
 
+      - name: Install nltk
+        run: pip install nltk
+        
+      - name: Download NLTK Corpora  # Add this step
+        run: |
+          python -m nltk.downloader stopwords
+
       - name: Test with pytest
         run: poetry run pytest tests/ --cov=pkg_pyknnclassifier --cov-report=xml
 
