@@ -2,6 +2,25 @@
 
 
 
+## v0.1.0 (2024-03-22)
+
+### Feature
+
+* feat(package): add example ([`58172c1`](https://github.com/billwan96/2024_03-skipgram/commit/58172c12440f8248feae2febd1d002f8988f680c))
+
+### Unknown
+
+* add myst ([`1ee6330`](https://github.com/billwan96/2024_03-skipgram/commit/1ee633072bcee2963f42db82cdad9a101f813554))
+
+* Merge branch &#39;main&#39; of github.com:billwan96/2024_03-skipgram ([`c6558b6`](https://github.com/billwan96/2024_03-skipgram/commit/c6558b64528c9c2a452ac25ded64cfda3ef7c0f1))
+
+* update toml ([`7f09fb4`](https://github.com/billwan96/2024_03-skipgram/commit/7f09fb4a3ef5bb15216ca7cbd846c2e12255b28a))
+
+* update example ([`69b7c65`](https://github.com/billwan96/2024_03-skipgram/commit/69b7c65537801601b4f7375e761fecea42c9843d))
+
+* Create .readthedocs.yaml ([`35347fd`](https://github.com/billwan96/2024_03-skipgram/commit/35347fd0752aa6b8d961ce5878a2861498c0561e))
+
+
 ## v0.0.0 (2024-03-22)
 
 ### Unknown
