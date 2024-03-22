@@ -2,6 +2,7 @@
 
 Implementing my own skipgram model
 
+![ci-cd](https://github.com/billwan96/2024_03-skipgram/actions/workflows/ci-cd.yml/badge.svg)
 ## Installation
 
 ```bash
