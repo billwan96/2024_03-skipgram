@@ -10,7 +10,7 @@ $ pip install py_skipgram_24
 
 ## Usage
 
-- TODO
+- TODO 
 
 ## Contributing
 
