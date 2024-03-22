@@ -84,3 +84,45 @@ def test_get_word_vectors():
     else:
         assert False
 
+def test_SkipgramModel_init():
+    # Test that embedding_dim must be a positive integer
+    try:
+        SkipgramModel(100, 0)
+    except ValueError:
+        assert True
+    else:
+        assert False
+
+def test_create_input_pairs_context_size_type():
+    pp_corpus = [["this", "is", "a", "sentence"], ["this", "is", "another", "sentence"]]
+    word2idx = {"this": 0, "is": 1, "a": 2, "sentence": 3, "another": 4}
+
+    # Test that context_size must be an integer
+    try:
+        create_input_pairs(pp_corpus, word2idx, "not an integer")
+    except ValueError:
+        assert True
+    else:
+        assert False
+
+def test_get_vocab_input_type():
+    # Test that tokenized_corpus must be a list of lists of strings
+    try:
+        get_vocab("not a list of lists")
+    except ValueError:
+        assert True
+    else:
+        assert False
+
+def test_get_word_vectors_model_type():
+    model = "not a model"  # Assuming SkipgramModel is defined
+    word2idx = {"this": 0, "is": 1, "a": 2, "sentence": 3, "another": 4}
+
+    # Test that model must be an instance of SkipgramModel
+    try:
+        get_word_vectors(model, word2idx)
+    except ValueError:
+        assert True
+    else:
+        assert False
+

@@ -64,7 +64,7 @@ $ pytest --cov-branch --cov=py_skipgram_24
 ## Usage
 To successfully use our Skipgram model to predict the target, please first ensure you have followed the instruction of installation, and then run the following line in a python notebook. Or you can look at the doc folder, with an example notebook.
 
-```{python}
+```python
 from py_skipgram_24 import SkipgramModel, create_input_pairs, get_vocab, MyPreprocessor, get_word_vectors
 corpus = ["It was a great day. I loved the movie and spending time with you. I wish we had more time.", 
           "The sky is always blue underneath. Remember that."]
