@@ -15,6 +15,7 @@ numpy = "^1.26.4"
 nltk = "^3.8.1"
 sphinx = "^7.2.6"
 sphinx-rtd-theme = "^2.0.0"
+myst-nb = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 
